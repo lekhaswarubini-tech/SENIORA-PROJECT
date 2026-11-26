@@ -1,0 +1,1200 @@
+{
+  "users": [
+    {
+      "id": "user-elder",
+      "role": "elder",
+      "name": "Lakshmi",
+      "email": "lakshmi@seniora.demo",
+      "label": "Elderly Person (Lakshmi)",
+      "passwordHash": "2cbb4bc7d1812b8e7522c22de1deabd3fc0807634c784076e89d27fcf6c4da324d81e9bbf41ad8fe2e7315529864c2352ddd48346f7aea3b0f78dea73f2b75c8",
+      "salt": "91e89172e54acbc8174785156efcbdc8",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "lakshmi123"
+    },
+    {
+      "id": "user-doctor",
+      "role": "doctor",
+      "name": "Dr. Arjun Menon",
+      "email": "arjun.doctor@seniora.demo",
+      "label": "Doctor (Dr. Arjun)",
+      "passwordHash": "598f079833f77593ae421e4e382081908e706fb83e9097cae1e8d5de0812bc9abbc144921bffbebfa6f4ba6f024fdfcf0e941ba793f859da9c45d12c510ea103",
+      "salt": "5a7d93d106f144a4174d1713066f23df",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "doctor123"
+    },
+    {
+      "id": "user-family",
+      "role": "family",
+      "name": "Priya (Daughter)",
+      "email": "priya.family@seniora.demo",
+      "label": "Family Member (Priya)",
+      "passwordHash": "a62c43acc3f3899ae6f8369bfcbe9c5411f2cfedf17a5d01ae8f4477075b2c8e23fe7d9675d60e93c926214ca5fa5d7491911c0ae81f31a7a338eb5c8f2d6e0b",
+      "salt": "82a168dbed008d945a9c8d633fe75ab1",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "family123"
+    },
+    {
+      "id": "user-pharmacy",
+      "role": "pharmacy",
+      "name": "MedPlus Care Pharmacy",
+      "email": "pharmacy@seniora.demo",
+      "label": "Pharmacy Partner",
+      "passwordHash": "83e79b83d1443a4c302c0fea2ec242520b154cc5f5d2d4e9202a7db6f205c659390256bcc506285ae5708753fd7957f028dde403aa631346f50340f88f604ba0",
+      "salt": "dc21b8883d4086e76a9c3bdc42be5361",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "pharmacy123"
+    },
+    {
+      "id": "user-delivery",
+      "role": "delivery",
+      "name": "Karthik R.",
+      "email": "karthik.delivery@seniora.demo",
+      "label": "Delivery Partner (Karthik)",
+      "passwordHash": "a0b86fcbebd845aa09c4c4e922250606a491c03beef9272a192a58c99932e3e661b86053ea09129a23dedcac8db10d24be743da556f7c55d2df3924e5a5c3c08",
+      "salt": "b224fe2c91a70326cd06090b65cb340c",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "delivery123"
+    },
+    {
+      "id": "user-transport",
+      "role": "transport",
+      "name": "CityCare Mobility",
+      "email": "transport@seniora.demo",
+      "label": "Transport Partner",
+      "passwordHash": "174903d3289ae87846bdd5700d68bbea6b1af35cf1a5a10c31f9bfd9478d45562a882f417a3d0abf59d61ff7f4c5277c9d7f70cad1672964d8f20d4682b990f6",
+      "salt": "1dde2ce0c2de858750f3387b135e6905",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "transport123"
+    },
+    {
+      "id": "user-ngo",
+      "role": "ngo",
+      "name": "Meena Sundaram",
+      "email": "meena.ngo@seniora.demo",
+      "label": "NGO Care Coordinator (Meena)",
+      "passwordHash": "02e4dbc6920f7dc87f94d4958266ba815e5f71c3cfda3e04efd81b21e27c8059d746767b047d9d692ad1f1944f773bfa59bbe3ae3d887834747f7760ae6284e3",
+      "salt": "cf8ae3c59a855e42a37ca1a509d12db1",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "ngo123"
+    },
+    {
+      "id": "user-admin",
+      "role": "admin",
+      "name": "Platform Admin",
+      "email": "admin@seniora.demo",
+      "label": "Administrator",
+      "passwordHash": "7fbf5386f5d009a8efbb47f5d95a26b746e66cdbc1950649c213489a7b4b34d2df3437d73081b5920a3db9392eacbdbf38e20fd1779add474b8279818c50fbf7",
+      "salt": "6feae5b8cd2aca4404404d34a627fd44",
+      "linkedPatientId": "elder-lakshmi",
+      "verified": true,
+      "demoPasswordHint": "admin123"
+    }
+  ],
+  "state": {
+    "profile": {
+      "id": "elder-lakshmi",
+      "name": "Lakshmi",
+      "age": 72,
+      "city": "Chennai, Tamil Nadu",
+      "address": "14 Lotus Garden Street, Mylapore, Chennai 600004 (DEMO Address)",
+      "language": "en",
+      "voicePersona": "female_warm",
+      "speechRate": 0.85,
+      "volume": 0.95,
+      "fontScale": "large",
+      "highContrast": true,
+      "communicationStyle": "warm_casual",
+      "wakeTime": "06:30",
+      "sleepTime": "21:30",
+      "livesAlone": true,
+      "livingArrangement": "alone",
+      "supportAreas": [
+        "healthcare",
+        "daily_activities",
+        "transportation",
+        "social_connections"
+      ],
+      "favouriteFoods": [
+        "Idli with sambar",
+        "Pongal",
+        "Steamed vegetables",
+        "Curd rice (afternoon)"
+      ],
+      "dislikedFoods": [
+        "Milk-based drinks",
+        "Excessively spicy fried snacks"
+      ],
+      "dietaryRestrictions": [
+        "Low sodium (doctor-advised for hypertension)",
+        "Moderate sugar"
+      ],
+      "hobbies": [
+        "Listening to classic Tamil film songs",
+        "Temple courtyard walks",
+        "Gardening jasmine"
+      ],
+      "favouriteMusic": [
+        "Old Tamil melodies (MS Viswanathan, Ilaiyaraaja classics)"
+      ],
+      "favouriteTopics": [
+        "Family stories",
+        "South Indian classical arts",
+        "Gardening"
+      ],
+      "mobilityNeeds": "Mild right knee stiffness — prefers wheelchair-accessible or low-step cars for hospital visits.",
+      "conditions": [
+        "Essential Hypertension (controlled)",
+        "Mild Knee Osteoarthritis"
+      ],
+      "allergies": [
+        "Penicillin (mild rash)"
+      ],
+      "preferredDoctorName": "Dr. Arjun Menon",
+      "preferredHospital": "Kauvery Senior Care Clinic, Mylapore (DEMO)",
+      "onboardingCompleted": true,
+      "avatarUrl": "/src/assets/images/elder_lakshmi_avatar_1795710402796.jpg",
+      "memories": [
+        {
+          "id": "mem-1",
+          "category": "food",
+          "label": "Breakfast Favourite",
+          "value": "Warm soft idli with mild sambar",
+          "preferenceType": "like",
+          "createdAt": "2026-11-26T16:34:44.328Z"
+        },
+        {
+          "id": "mem-2",
+          "category": "food",
+          "label": "Beverage Dislike",
+          "value": "Warm milk or milk-based health drinks",
+          "preferenceType": "dislike",
+          "createdAt": "2026-11-26T16:34:44.328Z"
+        },
+        {
+          "id": "mem-3",
+          "category": "music",
+          "label": "Favourite Music",
+          "value": "Old Tamil songs from the 1970s and 1980s",
+          "preferenceType": "like",
+          "createdAt": "2026-11-26T16:34:44.328Z"
+        },
+        {
+          "id": "mem-4",
+          "category": "family",
+          "label": "Daughter",
+          "value": "Priya lives in Bengaluru and calls every evening",
+          "preferenceType": "fact",
+          "createdAt": "2026-11-26T16:34:44.328Z"
+        }
+      ],
+      "privacy": {
+        "shareHealthWithFamily": true,
+        "shareAppointmentsWithFamily": true,
+        "shareNutritionWithFamily": true,
+        "shareLocationInEmergencyOnly": true,
+        "shareWithNgoCoordinator": true,
+        "allowGentleCheckIns": true
+      }
+    },
+    "medications": [
+      {
+        "id": "med-amlodipine",
+        "patientId": "elder-lakshmi",
+        "name": "Amlodipine",
+        "dosage": "5 mg (1 tablet)",
+        "frequency": "Once daily (Morning)",
+        "foodInstruction": "after_food",
+        "scheduledTime": "08:00",
+        "status": "pending",
+        "refillDaysLeft": 12,
+        "prescribedBy": "Dr. Arjun Menon",
+        "purpose": "Blood pressure management",
+        "lastUpdatedAt": "2026-11-26T16:34:44.328Z",
+        "history": [
+          {
+            "date": "2026-11-26",
+            "time": "08:00",
+            "status": "taken",
+            "confirmedBy": "Lakshmi"
+          }
+        ]
+      },
+      {
+        "id": "med-calcium",
+        "patientId": "elder-lakshmi",
+        "name": "Calcium + Vitamin D3",
+        "dosage": "500 mg (1 tablet)",
+        "frequency": "Once daily (Afternoon)",
+        "foodInstruction": "after_food",
+        "scheduledTime": "13:30",
+        "status": "pending",
+        "refillDaysLeft": 6,
+        "prescribedBy": "Dr. Arjun Menon",
+        "purpose": "Bone and joint support",
+        "lastUpdatedAt": "2026-11-26T16:34:44.328Z",
+        "history": []
+      },
+      {
+        "id": "med-rosuvastatin",
+        "patientId": "elder-lakshmi",
+        "name": "Rosuvastatin",
+        "dosage": "10 mg (1 tablet)",
+        "frequency": "Once daily (Night)",
+        "foodInstruction": "after_food",
+        "scheduledTime": "21:00",
+        "status": "pending",
+        "refillDaysLeft": 18,
+        "prescribedBy": "Dr. Arjun Menon",
+        "purpose": "Cholesterol balance",
+        "lastUpdatedAt": "2026-11-26T16:34:44.328Z",
+        "history": []
+      }
+    ],
+    "prescriptionUpdates": [
+      {
+        "id": "rx-demo-1",
+        "patientId": "elder-lakshmi",
+        "patientName": "Lakshmi",
+        "doctorId": "user-doctor",
+        "doctorName": "Dr. Arjun Menon",
+        "medicineName": "Topical Diclofenac Gel",
+        "dosage": "Apply thin layer twice daily",
+        "frequency": "Morning & Night",
+        "foodInstruction": "anytime",
+        "scheduledTime": "08:30",
+        "reason": "Gentle relief for right knee stiffness without stomach irritation",
+        "plainExplanation": "Dr. Arjun recommends a soothing knee gel twice a day. Nothing in your morning BP tablet changes. Would you like to confirm and order it from MedPlus Care Pharmacy?",
+        "status": "pending_consent",
+        "createdAt": "2026-11-26T16:34:44.328Z",
+        "isDemo": true
+      }
+    ],
+    "pharmacyOrders": [
+      {
+        "id": "ord-demo-101",
+        "prescriptionId": "rx-baseline",
+        "patientId": "elder-lakshmi",
+        "patientName": "Lakshmi",
+        "pharmacyName": "MedPlus Care Pharmacy (DEMO)",
+        "itemsSummary": "Amlodipine 5 mg (30 tabs) + Calcium D3 (30 tabs)",
+        "stage": "delivery_assigned",
+        "deliveryPartnerName": "Karthik R.",
+        "deliveryPhone": "+91 98400 11223 (DEMO)",
+        "deliveryAddress": "14 Lotus Garden Street, Mylapore, Chennai 600004",
+        "estimatedAmountInr": 285,
+        "availabilityConfirmed": true,
+        "notes": "Ring doorbell gently; call before arriving.",
+        "updatedAt": "2026-11-26T16:34:44.328Z",
+        "createdAt": "2026-11-26T16:34:44.328Z",
+        "isDemo": true
+      }
+    ],
+    "doctors": [
+      {
+        "id": "doc-arjun",
+        "name": "Dr. Arjun Menon",
+        "specialty": "General Physician & Geriatric Care",
+        "hospital": "Kauvery Senior Care Clinic, Mylapore (DEMO)",
+        "distanceKm": 1.8,
+        "languages": [
+          "Tamil",
+          "English",
+          "Hindi"
+        ],
+        "accessibleFacility": true,
+        "teleconsultAvailable": true,
+        "nextSlots": [
+          "2026-11-27 10:00",
+          "2026-11-27 11:30",
+          "2026-11-27 16:30"
+        ],
+        "avatarUrl": "/src/assets/images/doctor_arjun_avatar_1795710403514.jpg"
+      },
+      {
+        "id": "doc-kavitha",
+        "name": "Dr. Kavitha Subramanian",
+        "specialty": "Orthopaedic Specialist",
+        "hospital": "Mylapore Bone & Joint Centre (DEMO)",
+        "distanceKm": 2.4,
+        "languages": [
+          "Tamil",
+          "English"
+        ],
+        "accessibleFacility": true,
+        "teleconsultAvailable": true,
+        "nextSlots": [
+          "2026-11-27 10:30",
+          "2026-11-27 15:00"
+        ],
+        "avatarUrl": "/src/assets/images/doctor_arjun_avatar_1795710403514.jpg"
+      },
+      {
+        "id": "doc-raghav",
+        "name": "Dr. Raghavan Iyer",
+        "specialty": "Cardiologist",
+        "hospital": "Apollo Elder Heart Wing, Greams Road (DEMO)",
+        "distanceKm": 4.5,
+        "languages": [
+          "Tamil",
+          "English",
+          "Hindi"
+        ],
+        "accessibleFacility": true,
+        "teleconsultAvailable": true,
+        "nextSlots": [
+          "2026-11-27 09:30",
+          "2026-11-27 14:00"
+        ],
+        "avatarUrl": "/src/assets/images/doctor_arjun_avatar_1795710403514.jpg"
+      },
+      {
+        "id": "doc-ananya",
+        "name": "Dr. Ananya Rao",
+        "specialty": "Diabetologist",
+        "hospital": "Madras Metabolic Care Clinic (DEMO)",
+        "distanceKm": 3.1,
+        "languages": [
+          "English",
+          "Hindi",
+          "Tamil"
+        ],
+        "accessibleFacility": true,
+        "teleconsultAvailable": true,
+        "nextSlots": [
+          "2026-11-27 11:00",
+          "2026-11-27 17:00"
+        ],
+        "avatarUrl": "/src/assets/images/doctor_arjun_avatar_1795710403514.jpg"
+      },
+      {
+        "id": "doc-suresh",
+        "name": "Dr. Suresh Natarajan",
+        "specialty": "Ophthalmologist",
+        "hospital": "Sankara Vision Senior Clinic (DEMO)",
+        "distanceKm": 3.8,
+        "languages": [
+          "Tamil",
+          "English"
+        ],
+        "accessibleFacility": true,
+        "teleconsultAvailable": false,
+        "nextSlots": [
+          "2026-11-27 12:00",
+          "2026-11-27 16:00"
+        ],
+        "avatarUrl": "/src/assets/images/doctor_arjun_avatar_1795710403514.jpg"
+      }
+    ],
+    "appointments": [
+      {
+        "id": "appt-demo-1",
+        "patientId": "elder-lakshmi",
+        "patientName": "Lakshmi",
+        "doctorId": "doc-arjun",
+        "doctorName": "Dr. Arjun Menon",
+        "specialty": "General Physician & Geriatric Care",
+        "hospital": "Kauvery Senior Care Clinic, Mylapore (DEMO)",
+        "mode": "in_person",
+        "date": "2026-11-27",
+        "time": "10:00",
+        "reason": "Routine blood pressure review & right knee stiffness check",
+        "status": "scheduled",
+        "createdAt": "2026-11-26T16:34:44.328Z",
+        "isDemo": true
+      }
+    ],
+    "reports": [
+      {
+        "id": "rep-1",
+        "patientId": "elder-lakshmi",
+        "title": "Quarterly Blood Pressure & Lipid Panel (DEMO)",
+        "category": "lab_report",
+        "uploadedAt": "2026-11-26",
+        "summary": "Total Cholesterol 178 mg/dL, Fasting Glucose 96 mg/dL, Creatinine 0.85 mg/dL — within target senior range.",
+        "reviewedByDoctor": true,
+        "doctorNote": "Continue current Amlodipine 5mg and gentle morning hydration."
+      }
+    ],
+    "transportBookings": [
+      {
+        "id": "trip-1795711538122",
+        "patientId": "elder-lakshmi",
+        "patientName": "Lakshmi",
+        "purpose": "doctor",
+        "pickup": "14 Lotus Garden Street, Mylapore, Chennai 600004 (DEMO Address)",
+        "destination": "Kauvery Senior Care Clinic, Mylapore (DEMO)",
+        "date": "2026-11-27",
+        "time": "09:30",
+        "vehicleType": "accessible_van",
+        "accessibleRequired": true,
+        "estimatedFareInr": 220,
+        "driverName": "Awaiting Partner Confirmation (DEMO)",
+        "driverPhone": "+91 98401 44556 (DEMO)",
+        "vehicleNumber": "Pending Dispatch",
+        "status": "requested",
+        "createdAt": "2026-11-26T16:45:38.122Z",
+        "isDemo": true
+      },
+      {
+        "id": "trip-demo-1",
+        "patientId": "elder-lakshmi",
+        "patientName": "Lakshmi",
+        "purpose": "doctor",
+        "pickup": "14 Lotus Garden Street, Mylapore",
+        "destination": "Kauvery Senior Care Clinic, Mylapore",
+        "date": "2026-11-27",
+        "time": "09:20",
+        "vehicleType": "accessible_van",
+        "accessibleRequired": true,
+        "estimatedFareInr": 180,
+        "driverName": "Senthil Kumar",
+        "driverPhone": "+91 98401 44556 (DEMO)",
+        "vehicleNumber": "TN 09 SC 4210 (DEMO)",
+        "status": "confirmed",
+        "createdAt": "2026-11-26T16:34:44.328Z",
+        "isDemo": true
+      }
+    ],
+    "wearable": {
+      "connected": true,
+      "connectionMode": "demo",
+      "deviceName": "SENIORA CareBand S2 (DEMO Simulator)",
+      "isDemoData": true,
+      "heartRate": 74,
+      "restingHeartRate": 68,
+      "spo2": 98,
+      "spo2Supported": true,
+      "bpSystolic": 126,
+      "bpDiastolic": 78,
+      "bpDeviceValidated": true,
+      "steps": 3420,
+      "stepsGoal": 4500,
+      "sleepHours": 7.2,
+      "activityMinutes": 32,
+      "fallDetected": false,
+      "shareWithDoctor": true,
+      "lastSyncedAt": "2026-11-26T16:34:44.328Z",
+      "history7Days": [
+        {
+          "day": "Thu",
+          "heartRate": 72,
+          "restingHeartRate": 67,
+          "steps": 3900,
+          "sleepHours": 7.4,
+          "spo2": 98,
+          "bpSystolic": 124,
+          "bpDiastolic": 78
+        },
+        {
+          "day": "Fri",
+          "heartRate": 75,
+          "restingHeartRate": 68,
+          "steps": 4120,
+          "sleepHours": 7.1,
+          "spo2": 98,
+          "bpSystolic": 128,
+          "bpDiastolic": 80
+        },
+        {
+          "day": "Sat",
+          "heartRate": 71,
+          "restingHeartRate": 66,
+          "steps": 3250,
+          "sleepHours": 7.6,
+          "spo2": 99,
+          "bpSystolic": 122,
+          "bpDiastolic": 76
+        },
+        {
+          "day": "Sun",
+          "heartRate": 73,
+          "restingHeartRate": 67,
+          "steps": 3600,
+          "sleepHours": 7.5,
+          "spo2": 98,
+          "bpSystolic": 125,
+          "bpDiastolic": 78
+        },
+        {
+          "day": "Mon",
+          "heartRate": 76,
+          "restingHeartRate": 69,
+          "steps": 3810,
+          "sleepHours": 6.9,
+          "spo2": 97,
+          "bpSystolic": 130,
+          "bpDiastolic": 82
+        },
+        {
+          "day": "Tue",
+          "heartRate": 74,
+          "restingHeartRate": 68,
+          "steps": 4050,
+          "sleepHours": 7.3,
+          "spo2": 98,
+          "bpSystolic": 126,
+          "bpDiastolic": 79
+        },
+        {
+          "day": "Today",
+          "heartRate": 74,
+          "restingHeartRate": 68,
+          "steps": 3420,
+          "sleepHours": 7.2,
+          "spo2": 98,
+          "bpSystolic": 126,
+          "bpDiastolic": 78
+        }
+      ]
+    },
+    "meals": [
+      {
+        "id": "meal-1",
+        "type": "breakfast",
+        "description": "2 soft steamed idlis with mild moong sambar & coriander chutney",
+        "time": "08:15",
+        "caloriesApprox": 290,
+        "notes": "Easy to digest, low salt"
+      }
+    ],
+    "waterGlasses": 4,
+    "waterGoal": 7,
+    "habits": [
+      {
+        "id": "hab-1",
+        "title": "Gentle morning walk (15 min)",
+        "category": "walking",
+        "completedToday": true,
+        "streakDays": 5,
+        "weeklyCompleted": 5
+      },
+      {
+        "id": "hab-2",
+        "title": "Breathing & calm meditation",
+        "category": "meditation",
+        "completedToday": true,
+        "streakDays": 7,
+        "weeklyCompleted": 6
+      },
+      {
+        "id": "hab-3",
+        "title": "Drink 7 glasses of water",
+        "category": "water",
+        "completedToday": false,
+        "streakDays": 4,
+        "weeklyCompleted": 5
+      },
+      {
+        "id": "hab-4",
+        "title": "Listen to favourite Tamil melodies",
+        "category": "hobby",
+        "completedToday": false,
+        "streakDays": 6,
+        "weeklyCompleted": 6
+      },
+      {
+        "id": "hab-5",
+        "title": "Evening call with family or friend",
+        "category": "social",
+        "completedToday": false,
+        "streakDays": 3,
+        "weeklyCompleted": 4
+      }
+    ],
+    "routines": [
+      {
+        "id": "rt-1",
+        "time": "07:00",
+        "title": "Wake up & gentle stretching",
+        "category": "movement",
+        "completed": true
+      },
+      {
+        "id": "rt-2",
+        "time": "08:00",
+        "title": "Morning BP medicine (after breakfast)",
+        "category": "medication",
+        "completed": false
+      },
+      {
+        "id": "rt-3",
+        "time": "09:00",
+        "title": "Morning walk in courtyard",
+        "category": "movement",
+        "completed": true
+      },
+      {
+        "id": "rt-4",
+        "time": "13:00",
+        "title": "Nutritious lunch & Calcium D3",
+        "category": "meal",
+        "completed": false
+      },
+      {
+        "id": "rt-5",
+        "time": "16:30",
+        "title": "Old Tamil songs & jasmine tea",
+        "category": "rest",
+        "completed": false
+      },
+      {
+        "id": "rt-6",
+        "time": "19:30",
+        "title": "Call with daughter Priya",
+        "category": "social",
+        "completed": false
+      },
+      {
+        "id": "rt-7",
+        "time": "21:00",
+        "title": "Night medicine & restful sleep",
+        "category": "medication",
+        "completed": false
+      }
+    ],
+    "voicesOfLove": [
+      {
+        "id": "vol-1",
+        "fromName": "Priya",
+        "relationship": "Daughter",
+        "title": "Good Morning Amma!",
+        "transcript": "Good morning Amma! Hope your knees feel lighter today. Remember to take your tablet after idli and drink plenty of water. I will call you at 7:30 PM tonight!",
+        "durationSec": 16,
+        "scheduledTime": "08:00",
+        "createdAt": "2026-11-26T16:34:44.328Z",
+        "listened": true
+      },
+      {
+        "id": "vol-2",
+        "fromName": "Aarav",
+        "relationship": "Grandson",
+        "title": "Weekend Visit Surprise",
+        "transcript": "Paati! I learned a new song on the flute to play for you this Sunday when we visit. Take care and smile!",
+        "durationSec": 12,
+        "scheduledTime": "17:00",
+        "createdAt": "2026-11-26T16:34:44.328Z",
+        "listened": true
+      }
+    ],
+    "emergencyContacts": [
+      {
+        "id": "ec-112",
+        "name": "National Emergency Response",
+        "relationship": "national_emergency",
+        "phone": "112",
+        "isSystemDefault": true,
+        "notifyOnSos": true
+      },
+      {
+        "id": "ec-108",
+        "name": "Ambulance Service (Local Availability)",
+        "relationship": "ambulance",
+        "phone": "108",
+        "isSystemDefault": true,
+        "notifyOnSos": false
+      },
+      {
+        "id": "ec-101",
+        "name": "Fire & Rescue",
+        "relationship": "fire",
+        "phone": "101",
+        "isSystemDefault": true,
+        "notifyOnSos": false
+      },
+      {
+        "id": "ec-100",
+        "name": "Police Helpline",
+        "relationship": "police",
+        "phone": "100",
+        "isSystemDefault": true,
+        "notifyOnSos": false
+      },
+      {
+        "id": "ec-priya",
+        "name": "Priya (Daughter)",
+        "relationship": "family",
+        "phone": "+91 98450 22334",
+        "notifyOnSos": true
+      },
+      {
+        "id": "ec-neighbour",
+        "name": "Mrs. Radhika (Next-door Neighbour)",
+        "relationship": "neighbour",
+        "phone": "+91 98402 77889",
+        "notifyOnSos": true
+      },
+      {
+        "id": "ec-doctor",
+        "name": "Dr. Arjun Menon (Personal Doctor)",
+        "relationship": "doctor",
+        "phone": "+91 44 2498 1122",
+        "notifyOnSos": true
+      }
+    ],
+    "emergencyEvents": [],
+    "volunteers": [
+      {
+        "id": "volun-1",
+        "name": "Anandhi Krishnan",
+        "languages": [
+          "Tamil",
+          "English"
+        ],
+        "skills": [
+          "Hospital Escort",
+          "Reading & Companionship"
+        ],
+        "area": "Mylapore",
+        "available": true,
+        "assignedElderId": "elder-lakshmi"
+      },
+      {
+        "id": "volun-2",
+        "name": "Ramesh Babu",
+        "languages": [
+          "Tamil",
+          "Hindi",
+          "English"
+        ],
+        "skills": [
+          "Grocery Delivery",
+          "Mobility Assistance"
+        ],
+        "area": "Alwarpet",
+        "available": true
+      },
+      {
+        "id": "volun-3",
+        "name": "Deepa Narayanan",
+        "languages": [
+          "Tamil",
+          "Malayalam",
+          "English"
+        ],
+        "skills": [
+          "Medication Pickup",
+          "Check-in Calls"
+        ],
+        "area": "Adyar",
+        "available": true
+      }
+    ],
+    "ngoRequests": [
+      {
+        "id": "ngo-req-1",
+        "patientId": "elder-lakshmi",
+        "patientName": "Lakshmi",
+        "area": "Mylapore, Chennai",
+        "type": "hospital_visit",
+        "description": "Friendly companion escort for tomorrow 10:00 AM clinic visit at Kauvery Senior Care Clinic.",
+        "preferredDate": "2026-11-27",
+        "status": "pending",
+        "createdAt": "2026-11-26T16:34:44.328Z"
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "opp-1",
+        "title": "Tamil Storytelling & Heritage Mentor (Online)",
+        "organization": "Banyan Senior Wisdom Collective (Verified DEMO Partner)",
+        "category": "mentoring",
+        "schedule": "3 hours / week · Flexible mornings",
+        "stipendInr": "₹4,500 / month",
+        "verified": true,
+        "description": "Share classic Tamil proverbs, cultural stories, and life advice with school students over guided video sessions.",
+        "safetyNote": "Verified NGO partner · Zero registration fee required."
+      },
+      {
+        "id": "opp-2",
+        "title": "Part-Time Home Garden Advisor",
+        "organization": "Mylapore Community Terrace Gardens (DEMO)",
+        "category": "local",
+        "schedule": "2 mornings / week · Local neighbourhood",
+        "stipendInr": "₹3,000 / month",
+        "verified": true,
+        "description": "Guide neighbourhood volunteers on growing jasmine, tulsi, and kitchen herbs safely without heavy lifting.",
+        "safetyNote": "Local verified community co-op · Never share bank OTPs."
+      },
+      {
+        "id": "opp-3",
+        "title": "Remote Recipe & Culinary Proofreader (Tamil / English)",
+        "organization": "Heritage Kitchen Archive (DEMO)",
+        "category": "remote",
+        "schedule": "Self-paced · 4 hours / week",
+        "stipendInr": "₹5,000 / month",
+        "verified": true,
+        "description": "Review traditional South Indian home-style recipes from home and record voice notes on authentic methods.",
+        "safetyNote": "Verified partner · No upfront deposits or software purchases."
+      }
+    ],
+    "applications": [],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "title": "Take Amlodipine 5mg after breakfast",
+        "time": "08:00",
+        "date": "2026-11-26",
+        "category": "medication",
+        "completed": false
+      },
+      {
+        "id": "rem-2",
+        "title": "Drink a glass of warm water",
+        "time": "11:00",
+        "date": "2026-11-26",
+        "category": "hydration",
+        "completed": false
+      },
+      {
+        "id": "rem-3",
+        "title": "Doctor Visit — Dr. Arjun Menon",
+        "time": "10:00",
+        "date": "2026-11-27",
+        "category": "appointment",
+        "completed": false
+      },
+      {
+        "id": "rem-4",
+        "title": "Grandson Aarav's School Concert Call",
+        "time": "18:30",
+        "date": "2026-11-27",
+        "category": "family",
+        "completed": false
+      }
+    ],
+    "shoppingList": [
+      {
+        "id": "shop-1",
+        "name": "Idli rice & urad dal",
+        "quantity": "1 kg each",
+        "checked": false
+      },
+      {
+        "id": "shop-2",
+        "name": "Fresh jasmine strands",
+        "quantity": "2 strings",
+        "checked": true
+      },
+      {
+        "id": "shop-3",
+        "name": "Tender coconut water",
+        "quantity": "3",
+        "checked": false
+      }
+    ],
+    "notifications": [
+      {
+        "targetRoles": [
+          "transport",
+          "family",
+          "ngo"
+        ],
+        "title": "New Transport Request (DEMO): Kauvery Senior Care Clinic, Mylapore (DEMO)",
+        "message": "Lakshmi requested a accessible van on 2026-11-27 at 09:30.",
+        "category": "transport",
+        "id": "notif-1795711538123-rstv",
+        "read": false,
+        "createdAt": "2026-11-26T16:45:38.123Z"
+      },
+      {
+        "id": "notif-1",
+        "targetRoles": [
+          "elder",
+          "family"
+        ],
+        "title": "New Voice Message from Priya",
+        "message": "Priya recorded a Good Morning greeting in Voices of Love.",
+        "category": "family",
+        "read": false,
+        "createdAt": "2026-11-26T16:34:44.328Z"
+      },
+      {
+        "id": "notif-2",
+        "targetRoles": [
+          "elder"
+        ],
+        "title": "Doctor Prescription Needs Your Confirmation",
+        "message": "Dr. Arjun Menon recommended Topical Diclofenac Gel for your knee. Please review and confirm.",
+        "category": "prescription",
+        "read": false,
+        "createdAt": "2026-11-26T16:34:44.328Z"
+      }
+    ],
+    "auditLogs": [
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated water intake (0)",
+        "targetResource": "nutrition",
+        "approvalStatus": "approved",
+        "id": "aud-1795712421815-tfag",
+        "timestamp": "2026-11-26T17:00:21.815Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795712421807-h31o",
+        "timestamp": "2026-11-26T17:00:21.807Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795712237405-amt7",
+        "timestamp": "2026-11-26T16:57:17.405Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795712236809-n5r4",
+        "timestamp": "2026-11-26T16:57:16.809Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795712236797-gtpg",
+        "timestamp": "2026-11-26T16:57:16.797Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711739068-s4o6",
+        "timestamp": "2026-11-26T16:48:59.068Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711734966-novw",
+        "timestamp": "2026-11-26T16:48:54.966Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711685578-5ehu",
+        "timestamp": "2026-11-26T16:48:05.578Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711684084-rrzt",
+        "timestamp": "2026-11-26T16:48:04.084Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711669031-pxet",
+        "timestamp": "2026-11-26T16:47:49.031Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711666103-9gqo",
+        "timestamp": "2026-11-26T16:47:46.103Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711663786-4g26",
+        "timestamp": "2026-11-26T16:47:43.786Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711650725-toqi",
+        "timestamp": "2026-11-26T16:47:30.725Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711650252-jpxq",
+        "timestamp": "2026-11-26T16:47:30.252Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711649867-5seh",
+        "timestamp": "2026-11-26T16:47:29.867Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711649000-fjdv",
+        "timestamp": "2026-11-26T16:47:29.000Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Requested DEMO transport to Kauvery Senior Care Clinic, Mylapore (DEMO)",
+        "targetResource": "transport",
+        "approvalStatus": "approved",
+        "id": "aud-1795711538123-iywx",
+        "timestamp": "2026-11-26T16:45:38.123Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "AI Orchestration: [Personal Companion Agent, Transport & Coordination Agent]",
+        "targetResource": "seniora-companion",
+        "approvalStatus": "system",
+        "id": "aud-1795711506624-gssx",
+        "timestamp": "2026-11-26T16:45:06.624Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711440835-l8xd",
+        "timestamp": "2026-11-26T16:44:00.835Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "AI Orchestration: [Personal Companion Agent]",
+        "targetResource": "seniora-companion",
+        "approvalStatus": "system",
+        "id": "aud-1795711393350-ys1h",
+        "timestamp": "2026-11-26T16:43:13.350Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "AI Orchestration: [Personal Companion Agent]",
+        "targetResource": "seniora-companion",
+        "approvalStatus": "system",
+        "id": "aud-1795711372938-82j5",
+        "timestamp": "2026-11-26T16:42:52.938Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Marked voice message vol-2 listened",
+        "targetResource": "voices-of-love",
+        "approvalStatus": "approved",
+        "id": "aud-1795711286704-dvdw",
+        "timestamp": "2026-11-26T16:41:26.704Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Marked voice message vol-1 listened",
+        "targetResource": "voices-of-love",
+        "approvalStatus": "approved",
+        "id": "aud-1795711280062-5xrm",
+        "timestamp": "2026-11-26T16:41:20.062Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711254777-73p7",
+        "timestamp": "2026-11-26T16:40:54.777Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711253287-56io",
+        "timestamp": "2026-11-26T16:40:53.287Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711250259-qs6s",
+        "timestamp": "2026-11-26T16:40:50.259Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711247781-p3dw",
+        "timestamp": "2026-11-26T16:40:47.781Z"
+      },
+      {
+        "actorRole": "elder",
+        "actorName": "Lakshmi",
+        "action": "Updated personal profile and preferences",
+        "targetResource": "elder-profile",
+        "approvalStatus": "approved",
+        "id": "aud-1795711239600-or1q",
+        "timestamp": "2026-11-26T16:40:39.600Z"
+      },
+      {
+        "id": "aud-1",
+        "actorRole": "doctor",
+        "actorName": "Dr. Arjun Menon",
+        "action": "Created prescription recommendation (Topical Diclofenac Gel) pending elder consent",
+        "targetResource": "elder-lakshmi",
+        "approvalStatus": "pending",
+        "timestamp": "2026-11-26T16:34:44.328Z"
+      }
+    ],
+    "familyNotificationPrefs": {
+      "missedMedication": true,
+      "emergencyAlerts": true,
+      "appointmentReminders": true,
+      "ngoVisitUpdates": true
+    }
+  }
+}

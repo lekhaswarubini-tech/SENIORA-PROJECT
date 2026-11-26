@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-terracotta: #C46A4A;
+  --color-warm-terracotta-hover: #AE583A;
+  --color-warm-terracotta-ink: #9E4B30;
+  --color-forest-green: #355C48;
+  --color-forest-green-hover: #294838;
+  --color-muted-sage: #A8B89A;
+  --color-sage-wash: #EFF3EC;
+  --color-rich-burgundy: #783F45;
+  --color-rich-burgundy-hover: #613136;
+  --color-burgundy-wash: #F7ECEE;
+  --color-warm-champagne: #E8D5B5;
+  --color-champagne-soft: #F3E7D2;
+  --color-champagne-border: #D9C098;
+  --color-soft-ivory: #FAF3E8;
+  --color-ivory-card: #FFFDF9;
+  --color-deep-espresso: #382C27;
+  --color-espresso-muted: #63534B;
+}
+
+@layer base {
+  :root {
+    --font-display: 'Fraunces', 'Noto Sans Tamil', 'Noto Sans Devanagari', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans Tamil', 'Noto Sans Devanagari', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* SENIORA warm, dignified natural earth palette */
+    --seniora-terracotta: #C46A4A;
+    --seniora-terracotta-hover: #AE583A;
+    --seniora-forest: #355C48;
+    --seniora-forest-hover: #294838;
+    --seniora-sage: #A8B89A;
+    --seniora-sage-wash: #EFF3EC;
+    --seniora-burgundy: #783F45;
+    --seniora-burgundy-wash: #F7ECEE;
+    --seniora-champagne: #E8D5B5;
+    --seniora-champagne-soft: #F3E7D2;
+    --seniora-ivory: #FAF3E8;
+    --seniora-card: #FFFDF9;
+    --seniora-espresso: #382C27;
+    --seniora-espresso-muted: #63534B;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--seniora-ivory);
+    color: var(--seniora-espresso);
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 3px solid var(--seniora-burgundy);
+    outline-offset: 2px;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes gentle-breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.018);
+  }
+}
+
+.animate-gentle-breathe {
+  animation: gentle-breathe 4.5s ease-in-out infinite;
+}

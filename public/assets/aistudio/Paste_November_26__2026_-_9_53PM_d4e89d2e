@@ -1,0 +1,1248 @@
+# SENIORA
+## Agentic AI-Powered Personalized Elderly Care & Companionship Ecosystem
+
+### 1. PROJECT OVERVIEW
+
+Build a fully functional, responsive, AI-powered elderly-care platform called **SENIORA**.
+
+Tagline: **"Care That Understands. Companionship That Never Leaves."**
+
+Core concept:
+
+SENIORA is an agentic AI-powered personal assistant designed specifically for elderly people. It acts as a personalized digital companion, healthcare coordinator, daily-life assistant and communication bridge between elderly individuals, their families, doctors, NGOs and healthcare services.
+
+Unlike ordinary reminder applications, SENIORA should learn and understand each elderly person's:
+- Language and preferred communication style.
+- Likes, dislikes and interests.
+- Food preferences and dietary restrictions.
+- Medical history and prescribed medications.
+- Daily routines and habits.
+- Health trends and wellness requirements.
+- Family relationships and emergency contacts.
+- Emotional preferences and companionship needs.
+- Mobility limitations and accessibility requirements.
+
+The AI should gradually personalize its interactions based on information provided by the elderly person and authorized caregivers.
+
+The ultimate goal is to help elderly people live independently, safely, comfortably and with dignity, even when their family members are geographically distant.
+
+### 2. USER ROLES AND PLATFORM STRUCTURE
+
+Build four connected experiences:
+
+1. Elderly Person – Voice-first AI assistant.
+2. Doctor – Medical monitoring and healthcare management dashboard.
+3. Family Member – Remote monitoring and communication dashboard.
+4. NGO / Care Coordinator – Social support, assistance and emergency coordination dashboard.
+
+The elderly person's interface must be the simplest and most accessible. The other three interfaces should have separate logins and role-based permissions.
+
+All four experiences must connect to the same backend and shared patient profile, with strict access permissions.
+
+---
+
+# MODULE 1: SENIORA PERSONAL AI COMPANION
+
+### 3. Personalized AI Identity
+
+Create a warm, friendly and intelligent AI companion that speaks naturally with elderly people.
+
+Onboarding should ask:
+
+- What name should SENIORA call you?
+- What language do you prefer?
+- Do you prefer formal or casual conversations?
+- What time do you usually wake up and sleep?
+- What are your favourite foods?
+- What foods do you dislike?
+- Do you have dietary restrictions?
+- What hobbies do you enjoy?
+- What music do you like?
+- What are your favourite memories or topics?
+- What medicines have been prescribed by your doctor?
+- Do you live alone or with family?
+- Who should SENIORA contact during an emergency?
+- Do you have mobility or accessibility requirements?
+
+Allow users to skip questions and update their preferences at any time.
+
+Store these preferences in a personalized memory profile.
+
+### 4. Multilingual Voice Interaction
+
+SENIORA must support natural voice-based conversations.
+
+Prioritize Indian languages:
+- Tamil
+- English
+- Hindi
+- Telugu
+- Malayalam
+- Kannada
+
+Allow users to switch languages whenever they want.
+
+Requirements:
+- Speech-to-text input.
+- Natural text-to-speech responses.
+- Large microphone button.
+- Clear voice playback.
+- Adjustable speech speed.
+- Repeat last instruction.
+- Voice-based navigation.
+- Simple spoken instructions.
+- Large text alternatives for users with hearing difficulties.
+
+Example:
+
+Elderly person: "I don't feel like eating breakfast today."
+
+SENIORA: "That's alright. Would you prefer something light today? I remember you enjoy idli. Shall I suggest a simple breakfast?"
+
+The AI should not force routines or make users feel guilty.
+
+### 5. Personalized Memory and Preferences
+
+Create a persistent user memory system.
+
+Remember:
+- Favourite songs and artists.
+- Favourite dishes.
+- Food allergies and dislikes.
+- Favourite activities.
+- Family members and their relationships.
+- Important dates and birthdays.
+- Preferred doctors.
+- Daily habits.
+- Preferred conversation topics.
+- Communication preferences.
+
+Example:
+
+If the person likes old Tamil songs, SENIORA can suggest listening to their favourite music during relaxation time.
+
+If they dislike milk, do not repeatedly recommend milk-based drinks.
+
+If they prefer morning walks, encourage them according to their mobility and doctor's advice.
+
+The elderly person must be able to view, edit and delete personal preferences and memories.
+
+Do not infer sensitive personal information without permission.
+
+---
+
+# MODULE 2: HEALTH AND DAILY-LIFE MANAGEMENT
+
+### 6. Smart Medication Management
+
+Build a complete medication reminder system.
+
+Features:
+- Add prescribed medicines.
+- Medicine name and dosage.
+- Prescribed frequency.
+- Before/after food instructions.
+- Scheduled reminder times.
+- Medicine refill reminders.
+- Taken / Snoozed / Missed status.
+- Medication history.
+- Family notifications for important missed doses.
+- Doctor-approved medication updates.
+
+Example:
+
+"Good morning! It's time for your blood pressure medication. Have you taken it?"
+
+If the elderly person confirms, record the medicine as taken.
+
+If they do not respond:
+1. Send a gentle reminder.
+2. Retry according to their reminder preferences.
+3. Notify an authorized family member or caregiver if the configured escalation conditions are met.
+
+IMPORTANT:
+Never independently prescribe, stop, increase or decrease medication. Only authorized clinicians can issue medication changes. Record consent and confirmation before applying a new medication schedule.
+
+### 7. Food and Nutrition Tracker
+
+Create a personalized nutrition tracker.
+
+Features:
+- Breakfast, lunch, dinner and snacks.
+- Food intake logging.
+- Water intake tracking.
+- Daily hydration reminders.
+- Food preferences and restrictions.
+- Basic nutritional information.
+- Personalized meal suggestions.
+- Weekly nutrition reports.
+
+Suggestions should consider:
+- Age.
+- Doctor-approved dietary restrictions.
+- Known allergies.
+- Food preferences.
+- Existing health conditions.
+- Nutritional requirements.
+
+Example:
+
+"You haven't had much water this afternoon. Would you like a glass of water?"
+
+Provide Indian meal suggestions and regional foods.
+
+Do not give medical nutrition prescriptions. Recommendations involving diseases or restrictive diets must be based on clinician-approved guidance.
+
+### 8. Smart Habit Tracker
+
+Track healthy daily habits.
+
+Include:
+- Walking.
+- Light exercise.
+- Meditation.
+- Reading.
+- Drinking water.
+- Sleeping on time.
+- Outdoor activities.
+- Social interactions.
+- Personal hygiene.
+- Hobbies.
+
+Provide:
+- Daily completion percentage.
+- Weekly progress.
+- Habit streaks.
+- Gentle encouragement.
+- Personalized recommendations.
+
+Never punish users for missing a habit.
+
+### 9. Daily Routine Manager
+
+Create a simple daily schedule.
+
+Example:
+- 7:00 AM – Wake up.
+- 7:30 AM – Morning medication.
+- 8:00 AM – Breakfast.
+- 9:00 AM – Walking, if appropriate.
+- 11:00 AM – Personal activity.
+- 1:00 PM – Lunch.
+- 3:00 PM – Family conversation.
+- 5:00 PM – Relaxation.
+- 8:00 PM – Dinner.
+- 9:00 PM – Night medication, if prescribed.
+
+Allow customization.
+
+### 10. Emotional Wellbeing and Companionship
+
+This is a core SENIORA feature.
+
+Build a warm conversation engine that helps reduce loneliness.
+
+Features:
+- Daily friendly conversations.
+- Ask about their day.
+- Listen to memories and stories.
+- Discuss favourite topics.
+- Music suggestions.
+- Storytelling.
+- Festival and birthday greetings.
+- Gentle emotional check-ins.
+- Suggestions for calling family or friends.
+- Encourage participation in community activities.
+- Connect users with available NGO volunteers.
+
+Example:
+
+"Good evening! How was your day? Did you get a chance to listen to your favourite songs today?"
+
+If someone expresses sadness or loneliness:
+- Listen without judgment.
+- Respond with empathy.
+- Offer a conversation.
+- Suggest contacting a trusted person.
+- Offer an NGO volunteer connection where available.
+
+Never claim to replace human relationships, professional mental-health support or emergency services.
+
+### 11. Family Voice Personalization
+
+Introduce an optional feature called **Voices of Love**.
+
+Allow family members to record short voice messages with the elderly person's and family member's consent.
+
+Examples:
+- A daughter's recorded good-morning message.
+- A son's birthday greeting.
+- Grandchildren's festival wishes.
+- Important family announcements.
+
+The assistant can play these messages at scheduled times.
+
+Optional future enhancement:
+Create an authorized family voice model, only with explicit consent and appropriate identity verification. Clearly label AI-generated speech and never clone someone's voice without permission.
+
+---
+
+# MODULE 3: SMARTWATCH AND HEALTH MONITORING
+
+### 12. SENIORA Smart Health Companion
+
+Design a connected smartwatch concept for elderly users.
+
+The watch should be simple, lightweight and easy to operate.
+
+Potential features:
+- Heart-rate monitoring.
+- Blood oxygen monitoring, if supported.
+- Blood pressure monitoring, only with a validated compatible device.
+- Step counting.
+- Activity monitoring.
+- Sleep tracking.
+- Fall detection.
+- SOS emergency button.
+- Emergency contact notifications.
+- Voice communication with SENIORA.
+- Location sharing with permission.
+
+Show a smartwatch connection screen inside the application.
+
+The prototype must include a simulated device connection and realistic sample readings, clearly labelled as DEMO DATA.
+
+Do not represent simulated readings as actual medical measurements.
+
+Do not assume an ordinary smartwatch can accurately measure blood pressure. Use a validated compatible blood-pressure device where needed.
+
+### 13. Continuous Health Monitoring
+
+Create a health dashboard that displays:
+- Latest readings.
+- Historical trends.
+- Heart rate.
+- Blood pressure.
+- Oxygen saturation.
+- Sleep patterns.
+- Daily activity.
+- Health checkup history.
+
+Use visual charts and easy-to-understand indicators.
+
+The system can identify configured abnormal readings and recommend contacting a healthcare professional.
+
+Never claim that the AI diagnoses a condition.
+
+### 14. Emergency Detection and SOS
+
+Build an emergency response system.
+
+Possible triggers:
+- Manual SOS button.
+- Supported fall-detection signal.
+- User-reported chest pain or breathing difficulty.
+- Configured abnormal device readings.
+- No response after a verified emergency trigger.
+
+Emergency workflow:
+
+1. Detect or receive the emergency signal.
+2. Ask whether the user needs immediate help, when safe and appropriate.
+3. Alert the configured emergency contacts.
+4. Notify the assigned NGO coordinator.
+5. Provide the person's authorized emergency information to responders.
+6. Offer emergency transport coordination.
+7. Record the event and its response status.
+
+For suspected life-threatening emergencies, do not delay emergency escalation while waiting for the user to reply.
+
+For India, provide a configurable emergency calling option, including 112.
+
+Include:
+- Emergency contact name.
+- Relationship.
+- Phone number.
+- Preferred hospital.
+- Medical conditions shared for emergency use.
+- Current location, only with permission and appropriate emergency access.
+
+---
+
+# MODULE 4: DOCTOR APPOINTMENT AND HEALTHCARE COORDINATION
+
+### 15. Intelligent Doctor Appointment Booking
+
+This should be one of SENIORA's most important features.
+
+Build an appointment coordination agent.
+
+The AI should understand requests such as:
+
+"I have been experiencing knee pain. I think I need to see a doctor."
+
+The assistant should:
+
+1. Understand the user's request.
+2. Ask relevant non-diagnostic questions.
+3. Check whether urgent medical attention may be needed.
+4. Identify the appropriate type of healthcare professional.
+5. Display available doctors and hospitals.
+6. Show appointment slots.
+7. Consider distance, accessibility and user preferences.
+8. Ask for confirmation.
+9. Book the appointment through an available provider integration.
+10. Save the appointment in the elderly person's profile.
+11. Notify authorized family members and the NGO coordinator.
+
+Include:
+- General physician.
+- Cardiologist.
+- Orthopaedic specialist.
+- Diabetologist.
+- Ophthalmologist.
+- Other relevant specialties.
+
+Provide both in-person and teleconsultation options where available.
+
+For the working prototype, implement a functional simulated appointment booking system with sample doctors, availability and booking confirmation. Clearly distinguish demo bookings from real confirmed appointments.
+
+### 16. Doctor Dashboard
+
+Build a separate professional doctor dashboard.
+
+Doctor login should display only authorized patients.
+
+Each patient profile should include:
+
+- Basic patient details.
+- Medical history.
+- Existing conditions.
+- Current prescribed medications.
+- Allergies.
+- Recent health readings.
+- Historical health charts.
+- Medication adherence.
+- Nutrition reports.
+- Activity reports.
+- Sleep trends.
+- Appointment history.
+- Emergency events.
+- AI-generated health summaries.
+
+The AI should summarize trends and flag information for clinical review, not make independent diagnoses.
+
+Doctor actions:
+- Review patient health.
+- Schedule checkups.
+- Add consultation notes.
+- Update prescriptions.
+- Modify medicine schedules.
+- Request additional health tests.
+- Recommend lifestyle changes.
+- Mark follow-up dates.
+- Communicate with authorized family members.
+
+### 17. Doctor-Approved Medication Delivery
+
+Create a prescription-to-delivery workflow.
+
+When a doctor changes medication:
+
+1. Doctor enters the updated prescription.
+2. System validates the required fields.
+3. Elderly person receives an explanation in their preferred language.
+4. The elderly person or authorized representative confirms the change.
+5. Record the consent and prescription version.
+6. Display the new medication schedule.
+7. Offer delivery through a registered pharmacy integration.
+8. Track order and delivery status.
+
+If the elderly person does not agree, do not automatically apply the change or order the medicine. Escalate the disagreement to the doctor for review.
+
+Include:
+- Prescription details.
+- Pharmacy selection.
+- Order confirmation.
+- Payment/delivery status.
+- Delivery tracking.
+
+For the prototype, simulate pharmacy orders and status changes.
+
+---
+
+# MODULE 5: TRANSPORT AND PHYSICAL ASSISTANCE
+
+### 18. Medical Transport Booking
+
+When the elderly person needs to visit a doctor, SENIORA should coordinate accessible transport.
+
+Provide:
+- Available cars.
+- Accessible vehicles where available.
+- Auto-rickshaws.
+- Ambulance / emergency transport options.
+- Pickup location.
+- Hospital destination.
+- Appointment time.
+- Estimated fare where available.
+- Driver and vehicle details.
+- Booking status.
+- Family and NGO notifications.
+
+Example:
+
+"You have an appointment tomorrow at 10 AM. Would you like me to arrange a car to take you there?"
+
+The system should ask for confirmation before booking non-emergency transportation.
+
+For emergencies, prioritize emergency medical services rather than an ordinary taxi.
+
+For the prototype, build a functional simulated booking system. Never display fake live drivers or pretend a vehicle has actually been booked.
+
+---
+
+# MODULE 6: FAMILY MEMBER DASHBOARD
+
+### 19. Family Dashboard
+
+Create a dedicated family dashboard.
+
+Family members should be able to monitor the elderly person's wellbeing remotely, subject to their permissions.
+
+Dashboard sections:
+
+**Overview**
+- Current wellbeing summary.
+- Today's medication status.
+- Daily activity.
+- Upcoming appointments.
+- Latest available health readings.
+- Recent emergency alerts.
+
+**Health**
+- Health trends.
+- Medication adherence.
+- Nutrition reports.
+- Sleep information.
+- Doctor-approved updates.
+
+**Daily Life**
+- Habit completion.
+- Food and water intake.
+- Daily routine.
+- Social interaction summary.
+
+**Communication**
+- Voice messages.
+- Send greetings.
+- Schedule calls.
+- Request a conversation with the elderly person.
+- Family voice messages.
+
+**Appointments**
+- Upcoming appointments.
+- Booking history.
+- Transport coordination.
+- Doctor recommendations.
+
+**Notifications**
+- Missed medication.
+- Emergency alerts.
+- Appointment reminders.
+- Important health updates.
+- NGO visit updates.
+
+Provide configurable notification preferences.
+
+Family members must not have unrestricted access to sensitive information. The elderly person controls which information is shared, except for appropriately configured emergency access.
+
+---
+
+# MODULE 7: NGO AND CARE COORDINATION DASHBOARD
+
+### 20. NGO Dashboard
+
+Create a separate NGO dashboard for authorized organizations and care coordinators.
+
+The NGO should act as a human support network for elderly individuals who need assistance.
+
+Dashboard sections:
+
+**Elderly Care Registry**
+- Registered elderly people.
+- Assigned coordinators.
+- Location/area, subject to permissions.
+- Support requirements.
+- Emergency contacts.
+- Available assistance.
+
+**Volunteer Management**
+- Volunteer profiles.
+- Availability.
+- Languages spoken.
+- Skills.
+- Assigned elderly individuals.
+- Visit schedules.
+
+**Assistance Coordination**
+- Medical checkup requests.
+- Hospital visit support.
+- Medicine delivery assistance.
+- Grocery assistance.
+- Companionship visits.
+- Mobility support.
+- Emergency coordination.
+
+**Wellbeing**
+- People requiring follow-up.
+- Unanswered assistance requests.
+- Social isolation alerts based on consented indicators.
+- Missed scheduled visits.
+- Upcoming checkups.
+
+**Communication**
+- Secure communication with family members.
+- Coordination with doctors.
+- Volunteer assignment.
+- Visit completion reports.
+
+**Impact Tracking**
+- Number of elderly people supported.
+- Number of completed visits.
+- Health checkups coordinated.
+- Emergency assistance provided.
+- Medication delivery support.
+- Volunteer participation.
+- Estimated service reach.
+
+NGOs must only access information needed for their assigned responsibilities.
+
+Include role-based permissions and an audit trail.
+
+---
+
+# MODULE 8: AGENTIC AI ORCHESTRATION
+
+### 21. SENIORA Multi-Agent Intelligence System
+
+Do not build this as a single generic chatbot.
+
+Create a central AI orchestration layer with specialized agents.
+
+**Agent 1 – Personal Companion Agent**
+- Handles conversations.
+- Learns preferences.
+- Supports multilingual interaction.
+- Maintains approved personal memories.
+
+**Agent 2 – Medication Agent**
+- Tracks medication schedules.
+- Sends reminders.
+- Records adherence.
+- Escalates configured missed-dose events.
+
+**Agent 3 – Health Monitoring Agent**
+- Receives health readings.
+- Analyzes trends.
+- Flags configured concerns.
+- Prepares doctor-facing summaries.
+
+**Agent 4 – Nutrition and Habit Agent**
+- Tracks food, hydration and habits.
+- Suggests personalized activities.
+- Monitors progress.
+
+**Agent 5 – Appointment Agent**
+- Understands healthcare requests.
+- Finds suitable specialists.
+- Checks availability.
+- Coordinates bookings.
+
+**Agent 6 – Emergency Response Agent**
+- Handles SOS events.
+- Coordinates emergency contacts.
+- Notifies assigned support personnel.
+- Tracks response status.
+
+**Agent 7 – Family and NGO Coordination Agent**
+- Shares authorized updates.
+- Coordinates assistance.
+- Manages follow-ups.
+
+All agents must communicate through a central orchestration service.
+
+Example multi-agent workflow:
+
+Elderly person reports persistent knee discomfort.
+
+1. Companion Agent understands the request.
+2. Health Monitoring Agent checks relevant authorized history.
+3. Appointment Agent suggests an appropriate doctor for review.
+4. Appointment Agent checks available appointment slots.
+5. Elderly person confirms the booking.
+6. Family Dashboard receives an authorized notification.
+7. NGO Agent offers physical assistance if required.
+8. Transport Agent arranges a confirmed ride after approval.
+9. Doctor Dashboard receives relevant information before the consultation.
+
+Use controlled workflows, not unrestricted autonomous actions.
+
+Any medical changes, payments, actual bookings and sensitive information sharing must follow explicit authorization rules.
+
+---
+
+# MODULE 9: GOVERNMENT, COMPANY AND SOCIAL IMPACT
+
+### 22. Global and Indian Elderly Population Statistics
+
+Create a dedicated page called:
+
+**"The Ageing World – Why SENIORA Matters"**
+
+Display statistics using official and trustworthy sources.
+
+Include:
+
+- Global population aged 60 and above.
+- India's elderly population aged 60 and above.
+- Historical growth of elderly population.
+- Current estimates.
+- Future projections for 2030, 2036 and 2050 where data is available.
+- Growth in elderly healthcare requirements.
+- Loneliness and social isolation indicators.
+- Healthcare accessibility challenges.
+- Digital inclusion challenges.
+
+Use:
+- World Health Organization (WHO).
+- United Nations Department of Economic and Social Affairs (UN DESA).
+- United Nations Population Fund (UNFPA).
+- Government of India's Ministry of Statistics and Programme Implementation (MoSPI).
+- Ministry of Social Justice and Empowerment.
+- Longitudinal Ageing Study in India (LASI).
+- Official government publications and parliamentary answers.
+
+Every statistic must display:
+- Exact number or percentage.
+- Population definition (e.g. 60+).
+- Year of measurement.
+- Country or geographical scope.
+- Source organization.
+- Report/publication year.
+- Source link.
+
+Clearly differentiate actual census data, survey estimates and future projections.
+
+Never present an old projection as a current measured population. Never invent statistics.
+
+### 23. Government Impact Dashboard
+
+Show how SENIORA could support public healthcare and social welfare systems.
+
+Potential impact indicators:
+
+- Elderly people registered.
+- Elderly people receiving regular support.
+- Health checkups coordinated.
+- Medication adherence improvement.
+- Missed appointments reduced.
+- Emergency response coordination.
+- Elderly people connected to NGOs.
+- Rural and underserved population reach.
+- Digital inclusion.
+- Preventive care participation.
+
+Connect the platform conceptually to relevant Indian initiatives, including:
+- National Programme for Health Care of the Elderly (NPHCE).
+- Ayushman Bharat.
+- National Health Mission.
+- ABDM (Ayushman Bharat Digital Mission).
+- Senior citizen welfare initiatives.
+
+Do not claim official government partnerships, integration or endorsement without evidence.
+
+Explain how SENIORA could complement existing public health programmes.
+
+### 24. Company and Business Impact Dashboard
+
+Create a separate section showing potential benefits to companies and participating organizations.
+
+Potential stakeholders:
+
+- Hospitals.
+- Clinics.
+- Pharmacies.
+- Diagnostic laboratories.
+- Transportation providers.
+- NGOs.
+- Healthcare technology companies.
+- Smartwatch manufacturers.
+- Insurance providers, subject to appropriate consent and regulations.
+
+Display measurable business indicators:
+
+- Appointments coordinated.
+- Hospital follow-up completion.
+- Health checkup participation.
+- Pharmacy delivery orders.
+- Transport bookings.
+- NGO service requests.
+- Active elderly users.
+- Partner organizations.
+- Operational efficiency.
+- Estimated coordination time saved.
+
+Add a business model section:
+- Individual/family subscription.
+- Hospital and clinic partnerships.
+- NGO-sponsored access.
+- CSR-funded elderly support programmes.
+- Institutional and government partnerships.
+
+Provide an affordable or sponsored access model for economically disadvantaged elderly people.
+
+IMPORTANT: Clearly label simulated prototype metrics as demo data, not actual achievements or proven financial savings.
+
+---
+
+# MODULE 10: DESIGN AND USER EXPERIENCE
+
+### 25. Elderly-Friendly Design
+
+The elderly person's interface must prioritize accessibility over visual complexity.
+
+Design principles:
+
+- Large typography.
+- Large buttons.
+- High contrast.
+- Minimal navigation.
+- Clear icons with text labels.
+- Voice-first interaction.
+- Simple instructions.
+- Read-aloud functionality.
+- Adjustable font sizes.
+- Screen-reader compatibility.
+- Minimal typing.
+- No unnecessary animations.
+- Clear confirmation before important actions.
+- Easy emergency access.
+
+Use a calm, reassuring visual identity.
+
+Suggested palette:
+- Warm ivory.
+- Soft lavender.
+- Muted teal.
+- Gentle blue.
+- Deep navy for contrast.
+- Soft neutral backgrounds.
+
+Avoid a childish design or a complicated hospital-management appearance.
+
+SENIORA should feel warm, dignified, modern and trustworthy.
+
+### 26. Main Elderly Interface
+
+The home screen should display:
+
+- Personalized greeting.
+- Current date and time.
+- Large "Talk to SENIORA" microphone button.
+- Today's medication reminders.
+- Upcoming activities.
+- Water intake.
+- Food and habit tracking.
+- Next appointment.
+- Call family button.
+- Emergency SOS button.
+
+Example:
+
+"Good morning, Lakshmi! ❤️
+
+It's a lovely Thursday morning.
+
+You have your morning medicine at 8:00 AM, breakfast is coming up, and your daughter has sent you a voice message.
+
+Would you like to talk?"
+
+Make every major action accessible through voice and large touch controls.
+
+### 27. Doctor Dashboard Visual Design
+
+Use a clean professional medical interface.
+
+Include:
+- Patient list.
+- Search and filters.
+- Health trend charts.
+- Medication history.
+- Alerts for clinical review.
+- Appointment calendar.
+- Prescription management.
+- Patient notes.
+
+### 28. Family Dashboard Visual Design
+
+Use a reassuring and simple interface.
+
+Include:
+- Elderly person's profile.
+- Today's wellbeing.
+- Health summary.
+- Medication adherence.
+- Upcoming appointments.
+- Family voice messages.
+- Emergency alerts.
+
+### 29. NGO Dashboard Visual Design
+
+Use a coordination-focused interface.
+
+Include:
+- Elderly registry.
+- Volunteer assignments.
+- Pending requests.
+- Scheduled visits.
+- Emergency coordination.
+- Impact analytics.
+
+---
+
+# MODULE 11: TECHNICAL ARCHITECTURE
+
+### 30. Recommended Technology Stack
+
+Build a modular, scalable architecture.
+
+Frontend:
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Responsive layouts.
+- Recharts for analytics.
+- Accessible UI components.
+
+Backend:
+- Python.
+- FastAPI.
+- REST APIs.
+- WebSocket support where required.
+
+Database:
+- PostgreSQL for persistent application data.
+- Local development database where necessary.
+
+AI:
+- LLM integration through a configurable provider.
+- Speech-to-text.
+- Text-to-speech.
+- Multilingual conversation support.
+- Agent orchestration.
+- Structured user memory.
+- Tool calling with authorization.
+
+Integrations:
+- Smartwatch/device API adapter.
+- Appointment provider adapter.
+- Pharmacy adapter.
+- Maps and transportation adapter.
+- Notification service.
+- Emergency calling integration.
+
+Use environment variables for API credentials. Never expose secret keys in frontend code or GitHub.
+
+If API keys are unavailable, provide working local demo adapters and sample data. Do not use fake API keys or pretend external services are connected.
+
+### 31. Suggested Folder Structure
+
+Create one unified repository:
+
+SENIORA/
+- frontend/
+  - elderly-app/
+  - doctor-dashboard/
+  - family-dashboard/
+  - ngo-dashboard/
+  - shared-components/
+- backend/
+  - api/
+  - authentication/
+  - database/
+  - services/
+  - notifications/
+- agents/
+  - companion-agent/
+  - medication-agent/
+  - health-agent/
+  - nutrition-agent/
+  - appointment-agent/
+  - emergency-agent/
+  - coordination-agent/
+- integrations/
+  - smartwatch/
+  - pharmacy/
+  - appointments/
+  - transport/
+- data/
+  - demo-data/
+  - official-statistics/
+- docs/
+  - architecture/
+  - API-contracts/
+  - privacy/
+- tests/
+- README.md
+- .env.example
+- .gitignore
+
+### 32. Team-Based Development and Integration
+
+The system must support three developers building separate components independently.
+
+Define these three initial development modules:
+
+Developer A – Personal Intelligence and Elderly Experience:
+- Elderly user onboarding.
+- Personal memory.
+- Multilingual AI companion.
+- Medication reminders.
+- Nutrition and habit tracking.
+- Emotional companionship.
+
+Developer B – Healthcare and Smartwatch System:
+- Smartwatch integration adapter.
+- Health monitoring.
+- Doctor dashboard.
+- Appointment booking.
+- Prescription workflow.
+- Pharmacy delivery simulation.
+
+Developer C – Family, NGO and Coordination System:
+- Family dashboard.
+- NGO dashboard.
+- Emergency coordination.
+- Transport booking.
+- Official statistics.
+- Government and company impact dashboards.
+
+All developers must follow shared API contracts and database schemas.
+
+Create a common integration branch and three feature branches.
+
+Each developer must:
+1. Build their module independently.
+2. Test it independently.
+3. Document inputs and outputs.
+4. Push their work to their feature branch.
+5. Create a pull request.
+6. Integrate through code review.
+7. Run end-to-end tests.
+
+Do not create three unrelated applications. Build three modules of ONE unified application.
+
+---
+
+# MODULE 12: SECURITY AND TRUST
+
+### 33. Privacy and Access Control
+
+This platform handles sensitive elderly people's information. Security is mandatory.
+
+Include:
+- Secure authentication.
+- Role-based access control.
+- Encrypted data transmission.
+- Secure password handling.
+- Consent management.
+- Access logs.
+- Audit trails.
+- Data minimization.
+- Secure session management.
+- Authorized family access.
+- Doctor-specific patient permissions.
+- NGO-specific assigned-user permissions.
+- Emergency access controls.
+- Data deletion and export options.
+
+Use synthetic data for the public prototype.
+
+Do not use real patient records.
+
+Provide clear privacy explanations in simple language.
+
+Medical information must only be shared with authorized parties.
+
+All sensitive changes should be logged with user identity, timestamp and approval status.
+
+---
+
+# MODULE 13: WORKING PROTOTYPE REQUIREMENTS
+
+### 34. Functional Requirements
+
+Do not deliver a static landing page or a collection of disconnected dashboards.
+
+Build a functional end-to-end prototype.
+
+The following workflows must work:
+
+1. Register an elderly user.
+2. Create and edit their personal profile.
+3. Select their preferred language.
+4. Interact with the AI companion.
+5. Save and retrieve preferences.
+6. Add medication schedules.
+7. Trigger medication reminders.
+8. Record taken/missed medicine status.
+9. Log food and water intake.
+10. Track daily habits.
+11. View health trends.
+12. Simulate smartwatch readings.
+13. Trigger an SOS event.
+14. Notify configured emergency contacts in the demo.
+15. Book a simulated doctor appointment.
+16. Display the appointment on the doctor dashboard.
+17. Let the doctor add a prescription.
+18. Ask for elderly-user consent.
+19. Simulate pharmacy order placement after consent.
+20. Simulate transportation booking.
+21. Show relevant updates on the family dashboard.
+22. Assign an NGO volunteer.
+23. Record a completed visit.
+24. Display government and company impact statistics.
+
+All dashboards must use the same underlying patient record and shared data.
+
+When an action occurs in one dashboard, relevant authorized changes should appear in the other dashboards without manually entering the same data again.
+
+### 35. Demo User Accounts
+
+Provide preconfigured demo accounts:
+
+- Elderly person: Lakshmi.
+- Doctor: Dr. Arjun.
+- Family member: Priya (daughter).
+- NGO coordinator: Meena.
+
+Use synthetic medical data and clearly identify the profiles as demonstration accounts.
+
+Allow the evaluator to switch between the four roles.
+
+### 36. End-to-End Demonstration Scenario
+
+Build a complete demonstration storyline:
+
+Lakshmi is a 72-year-old woman who lives alone.
+
+She prefers Tamil conversations, enjoys old Tamil songs, likes idli and dislikes milk-based drinks.
+
+She has a doctor-prescribed medication schedule and a history of hypertension.
+
+Morning:
+- SENIORA greets Lakshmi in Tamil.
+- Reminds her about her medication.
+- Records her confirmation.
+- Suggests a breakfast based on her preferences.
+- Updates her hydration tracker.
+
+Afternoon:
+- Lakshmi reports knee discomfort.
+- The Companion Agent understands the request.
+- The Appointment Agent offers suitable doctors.
+- Lakshmi confirms an appointment.
+- The Family Dashboard receives an authorized notification.
+- The NGO Coordinator is offered a support request.
+
+Healthcare:
+- Lakshmi's connected demo device provides sample readings.
+- The Health Agent updates her trends.
+- The doctor reviews her health summary.
+- The doctor enters a prescription change.
+- SENIORA explains the change in Tamil.
+- Lakshmi confirms the change.
+- The system updates her medicine schedule.
+- A simulated pharmacy order is placed.
+
+Transport:
+- Lakshmi requests a ride.
+- The Transport Agent displays available demo options.
+- She confirms the booking.
+- The family and NGO dashboards display the relevant update.
+
+Evening:
+- SENIORA asks how her day went.
+- Plays an authorized voice message from her daughter.
+- Suggests a relaxing activity.
+- Updates her daily wellbeing summary.
+
+The evaluator should be able to experience this entire workflow through actual interactions.
+
+---
+
+# MODULE 14: FINAL PRODUCT DELIVERY
+
+### 37. What Must Be Delivered
+
+Produce:
+
+1. Complete working frontend.
+2. Complete backend.
+3. Three functional dashboards.
+4. Elderly-friendly AI companion interface.
+5. Central multi-agent orchestration layer.
+6. Shared database.
+7. Functional simulated integrations.
+8. Working sample accounts.
+9. Officially sourced statistics page.
+10. Government and business impact dashboard.
+11. Responsive design.
+12. README with setup instructions.
+13. Architecture documentation.
+14. API documentation.
+15. Testing instructions.
+16. Environment variable template.
+17. GitHub-ready source code.
+
+### 38. Final Quality Requirements
+
+- No dead buttons.
+- No broken navigation.
+- No disconnected modules.
+- No fabricated live integrations.
+- No invented official statistics.
+- No unapproved medication changes.
+- No fake health readings presented as real.
+- No unrestricted access to patient data.
+- No placeholder dashboards where functionality is expected.
+- No exposed API credentials.
+
+Use realistic synthetic data where real integrations are unavailable.
+
+Every demo-only function must be clearly labelled.
+
+Prioritize functional completeness, accessibility, reliability and a smooth demonstration over unnecessary animations or decorative elements.
+
+### 39. FINAL PRODUCT VISION
+
+SENIORA should demonstrate how AI can become a meaningful bridge between elderly individuals and the people and services responsible for their wellbeing.
+
+It must combine:
+- Personal intelligence.
+- Emotional companionship.
+- Preventive health coordination.
+- Smart medication management.
+- Multilingual communication.
+- Healthcare access.
+- Family involvement.
+- NGO assistance.
+- Emergency support.
+- Public healthcare impact.
+
+The final experience should make an elderly person feel:
+
+"I am understood. I am supported. I am not alone."
+
+**SENIORA – More Than an Assistant. A Connected Circle of Care.**

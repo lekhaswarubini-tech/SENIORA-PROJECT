@@ -1,0 +1,6 @@
+{
+  "name": "SENIORA — AI Elderly Care & Companionship Ecosystem",
+  "description": "Voice-first, multilingual AI elderly-care platform connecting elderly individuals, doctors, families, pharmacies, delivery partners, transport providers, and NGO coordinators.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
